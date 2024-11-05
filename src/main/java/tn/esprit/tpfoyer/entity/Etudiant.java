@@ -24,11 +24,15 @@ public class Etudiant {
 
     String nomEtudiant;
     String prenomEtudiant;
+    String identifiant;
     long cinEtudiant;
     Date dateNaissance;
 
     @ManyToMany(mappedBy = "etudiants")
     Set<Reservation> reservations;
+
+
+
 
 }
 
