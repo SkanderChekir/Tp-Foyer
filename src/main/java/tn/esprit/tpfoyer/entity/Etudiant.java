@@ -25,6 +25,7 @@ public class Etudiant {
     String nomEtudiant;
     String prenomEtudiant;
     String identifiant;
+    String telephone;
     long cinEtudiant;
     Date dateNaissance;
 
